@@ -1,0 +1,344 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}{\hbox
+  to.8em{--\hss--}}{\textemdash}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em plus
+  0.1em\fi
+\cyrdash\hskip.2em plus 0.1em\ignorespaces}
+\renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{hitlevich1985}
+\selectlanguageifdefined{russian}
+Электроискровое легирование
+  металлических поверхностей~/
+  А.Е.~Гитлевич, В.В.~Михайлов,
+  Н.Я.~Парканский, В.М.~Ревуцкий~; Под ред.\
+  Ю.Н.~Петров. \BibDash
+\newblock Кишенев~: Штиинца, 1985. \BibDash
+\newblock {С.}~196.
+
+\bibitem{ivanov2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Иванов~В.И.} Электроискровое
+  нанесение покрытий~/ В.И.~Иванов,
+  А.Ю.~Костюков~// \BibEmph{Ритм машиностроения}.
+  \BibDash
+\newblock 2016. \BibDash
+\newblock {№}~10. \BibDash
+\newblock {С.}~36--41. \BibDash
+\newblock Режим доступу:
+  \href{http://ritm-magazine.ru/sites/default/files/rhythm_of_machinery_10_2016_0.pdf}{ritm-magazine.ru/sites/default/files/rhythm\_of\_machinery\_10\_2016\_0.pdf}.
+  --- Дата доступу: 28.05.2016.
+
+\bibitem{yarkov2004}
+\selectlanguageifdefined{russian}
+\BibEmph{Ярков~Д.В.} Формирование
+  функциональных покрытий методом ЭИЛ с
+  применением электродных материалов из
+  минерального сырья дальневосточного
+  региона~: {дис.\ \ldots\ канд. наук}~/
+  Д.В.~Ярков~; Хабаровский научный центр,
+  Институт материаловедения. \BibDash
+\newblock [{Б.\ м.}~: {б.\ и.}], 2004. \BibDash
+\newblock Режим доступу:
+  \href{http://elspark.narod.ru/eil.pdf}{elspark.narod.ru/eil.pdf}. –
+  Дата доступу: 28.05.2016.
+
+\bibitem{mulin1999}
+\selectlanguageifdefined{russian}
+\BibEmph{Мулин~Ю.И.} Электроискровое
+  легирование рабочих поверхностей
+  инструментов и деталей машин
+  электродными материалами, полученными из
+  минерального сырья~/ Ю.И.~Мулин,
+  А.Д.~Верхотуров. \BibDash
+\newblock Владивосток~: Дальнаука, 1999. \BibDash
+\newblock {С.}~110.
+
+\bibitem{miczkevich1977}
+\selectlanguageifdefined{russian}
+Изучение динамики процесса переноса
+  материалов электродов в сильноточном
+  импульсном разряде~/
+  М.К.~Мицкевич, А.И.~Бушик, И.А.~Бакуто,
+  В.А.~Шилов~// \BibEmph{Электронная обработка
+  материалов}. \BibDash
+\newblock 1977. \BibDash
+\newblock {№}~4.
+
+\bibitem{lazarenko1965}
+\selectlanguageifdefined{russian}
+\BibEmph{Лазаренко~Н.И.} О механизме
+  образования покрытие при электроискровом
+  легировании металлических поверхностей
+ ~/ Н.И.~Лазаренко~//
+  \BibEmph{Электронная обработка материалов}.
+  \BibDash
+\newblock 1965. \BibDash
+\newblock {№}~1.
+
+\bibitem{verkhoturov1983}
+\selectlanguageifdefined{russian}
+\BibEmph{Верхотуров~А.Д.} Обобщенная модель
+  процесса электроискрового легирования~/ А.Д.~Верхотуров~//
+  \BibEmph{Электрофизические и
+  электрохимические методы обработки}. \BibDash
+\newblock 1983. \BibDash
+\newblock {№}~1. \BibDash
+\newblock {С.}~3--6.
+
+\bibitem{verkhoturov1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Верхотуров~А.Д.} Электродные
+  материалы для электроискрового
+  легирования~/ А.Д.~Верхотуров,
+  И.А.~Подчерняева, Л.Ф.~Прядко~; Под ред.\
+  Ф.Ф.~Егоров. \BibDash
+\newblock Москва~: Изд-во Наука, 1988. \BibDash
+\newblock {С.}~224.
+
+\bibitem{eltit}
+\selectlanguageifdefined{ukrainian}
+\href{http://dx.doi.org/10.1002/14356007.a27_229}{Tungsten, Tungsten Alloys,
+  and Tungsten Compounds}~/ Erik~Lassner, Wolf-Dieter~Schubert,
+  Eberhard~Lüderitz, Hans~Uwe~Wolf. \BibDash
+\newblock [S.\ l.]~: Wiley-VCH Verlag GmbH \& Co. KGaA, 2000. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=9783527306732}{9783527306732}.
+
+\bibitem{diag1997t1}
+\selectlanguageifdefined{russian}
+Диаграммы состояния двойных металлических
+  систем. Справочник в 3 томах.~/ Под
+  ред.\ Н.П.~Лякишев. \BibDash
+\newblock Москва~: Машиностроение, 1997. \BibDash
+\newblock Т.~1. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=5-217-02688-X}{5-217-02688-X}.
+
+\bibitem{daintith2014chemistry}
+\selectlanguageifdefined{english}
+\BibEmph{Daintith~John}. Chemistry~/ John~Daintith. \BibDash
+\newblock [S.\ l.]~: Infobase Publishing, 2014.
+
+\bibitem{serebrovsky2012}
+\selectlanguageifdefined{russian}
+Повышение эксплуатационных свойств железных гальванических покрытий путем легирования вольфрамом и молибденом~/ В.И.~Серебровский, А.Ю.~Молодкин,
+  В.В.~Бедин, Л.Н.~Серебровская~//
+  \BibEmph{Вестник Курской государственной
+  сельскохозяйственной академии}. \BibDash
+\newblock 2012. \BibDash
+\newblock {№}~9. \BibDash
+\newblock {С.}~75--76.
+
+\bibitem{diag1997t2}
+\selectlanguageifdefined{russian}
+Диаграммы состояния двойных металлических
+  систем. Справочник в 3 томах.~/ Под
+  ред.\ Н.П.~Лякишев. \BibDash
+\newblock Москва~: Машиностроение, 1997. \BibDash
+\newblock Т.~2. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=5-217-01569-1}{5-217-01569-1}.
+
+\bibitem{sydorenko2013}
+\selectlanguageifdefined{ukrainian}
+\BibEmph{Сидоренко~С.І.} Матеріалознавство і
+  розробка електронної техніки~/
+  С.І.~Сидоренко, Є.В.~Іващенко,
+  Г.Г.~Лобачова~// \BibEmph{Науковий вісник
+  КУЕІТУ}. \BibDash
+\newblock 2013. \BibDash
+\newblock {№} 3-4(41-42). \BibDash
+\newblock {С.}~3--7.
+
+\bibitem{kadenacy1989}
+\selectlanguageifdefined{russian}
+\BibEmph{Каденаций~Л.А.} Упрочнение деталей
+  оборудования для легкой промышленности
+  электроискровым Легированием~/
+  Л.А.~Каденаций, Н.Б.~Лисовская,
+  С.Ф.~Селиверстов~// \BibEmph{Технология и
+  организация производства}. \BibDash
+\newblock 1989. \BibDash
+\newblock {№}~2.
+
+\bibitem{podchernyaeva2012}
+\selectlanguageifdefined{russian}
+Особенности формирования и
+  трибологического поведения многослойных
+  износостойких $ZrB_2$-содержащих
+  электроискровых и
+  лазерно-электроискровых покрытий на
+  титановом сплаве~/
+  И.А.~Подчерняева, В.М.~Панашенко,
+  А.И.~Духота [и~др.]~// \BibEmph{Проблеми
+  трибології}. \BibDash
+\newblock 2012.
+
+\bibitem{verkhoturova}
+\selectlanguageifdefined{russian}
+\BibEmph{Верхотурова~И.В.} Исследование
+  свойств двухслойных электроискровых
+  покрытий на основе сплавов и графита~/
+  И.В.~Верхотурова, Д.А.~Салыкина,
+  Н.А.~Волкова. \BibDash
+\newblock 2013. \BibDash
+\newblock Режим доступу:
+  \href{http://old.amursu.ru/attachments/article/9526/N59\_9.pdf}{old.amursu.ru/attachments/article/9526/N59\_9.pdf}.
+  --- Дата доступу: .22.04.2017.
+
+\bibitem{lobachova2012}
+\selectlanguageifdefined{ukrainian}
+\BibEmph{Лобачова~Г.Г.} Поверхневе зміцнення
+  сплавів заліза електроіскровим
+  легуванням цирконієм, титаном, хромом та
+  хіміко-термічною обробкою~: дис. канд. техн. наук. за спец. 05.16.01 --- Металознавство та термічна обробка металів~/ Г.Г.~Лобачова~; НТУУ <<КПІ>>. \BibDash
+\newblock Київ~: 2012. \BibDash
+\newblock {С.}~200.
+
+\bibitem{steel45}
+\selectlanguageifdefined{ukrainian}
+Центральный металлический портал РФ Сталь
+  марки 45. \BibDash
+\newblock 2010. \BibDash
+\newblock Режим доступу:
+  \href{http://metallicheckiy-portal.ru/marki_metallov/stk/45}{metallicheckiy-portal.ru/marki\_metallov/stk/45}.
+  --- Дата доступу: 28.05.2016.
+
+\bibitem{horelik1994}
+\selectlanguageifdefined{russian}
+\BibEmph{Горелик~С.С.} Рентгенографический и
+  электронно-оптический анализ~/
+  С.С.~Горелик, Ю.А.~Скаков, Л.Н.~Расторгуев~;
+  Под ред.\ В.П.~Моловкова. Учеб. пособие для
+  вузов. \BibDash
+\newblock 3-е изд. доп. и перераб. {изд.} \BibDash
+\newblock Москва~: МИСИС, 1994. \BibDash
+\newblock {С.}~328.
+
+\bibitem{maillet2017}
+%\selectlanguageifdefined{english}
+\BibEmph{Maillet~David}. Mind-wandering and task stimuli: Stimulus-dependent thoughts influence performance on memory tasks and are more often past-versus future-oriented~/ David~Maillet, Paul~Seli, Daniel~L.~Schacter~// \BibEmph{Consciousness and Cognition}. \BibDash
+\newblock 2017. \BibDash jul. \BibDash
+\newblock Vol.~52. \BibDash
+\newblock P.~55--67.
+
+\bibitem{web:resistivity}
+\selectlanguageifdefined{ukrainian}
+Resistivity and Temperature Coefficient at 20\celsius. \BibDash
+\newblock Режим доступу:~\href{http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/rstiv.html}{hyperphysics.phy-astr.gsu.edu/hbase/Tables/rstiv.html}. --- Дата доступу:~14.06.2017.
+
+\bibitem{liu2007}
+\selectlanguageifdefined{ukrainian}
+Electro-spark deposition of Fe-based amorphous alloy coatings~/
+  Dongyan~Liu, Wei~Gao, Zhengwei~Li [et~al.]~//
+  \href{http://dx.doi.org/10.1016/j.matlet.2006.04.042}{\BibEmph{Materials
+  Letters}}. \BibDash
+\newblock 2007. \BibDash jan. \BibDash
+\newblock Vol.~61, no.~1. \BibDash
+\newblock P.~165--167.
+
+\bibitem{tkachuk2006}
+\selectlanguageifdefined{ukrainian}
+Основи охорони праці: Підручник. 2-ге
+  видання, доповнене та перероблене.
+ ~/ К.Н.~Ткачук, М.О.~Халімовський,
+  В.В.~Запарний [{та~ін.}]~; Під ред.\
+  К.Н.~Ткачука, М.О.~Халімовського. \BibDash
+\newblock Київ~: Основа, 2006. \BibDash
+\newblock {С.}~448. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=966-699-156-Х}{966-699-156-Х}.
+
+\bibitem{law_aboutwork1992}
+\selectlanguageifdefined{english}
+Про охорону праці: Закон України вiд 14.10.1992
+  №~2694-XII. \BibDash
+\newblock Парлам. вид-во. \BibDash
+\newblock 1992.
+
+\bibitem{snip}
+\selectlanguageifdefined{russian}
+СНиП 2.09.04-87. Строительные нормы и правила.
+  Административные и бытовые здания. \BibDash
+\newblock 1987.
+
+\bibitem{dsn:microclimate}
+\selectlanguageifdefined{ukrainian}
+ДСН 3.3.6.042-99. Санітарні норми мікроклімату
+  виробничих приміщень. \BibDash
+\newblock Міністерство охорони здоров’я (МОЗ).
+  \BibDash
+\newblock 1999.
+
+\bibitem{gelibo2001}
+\selectlanguageifdefined{ukrainian}
+\BibEmph{Желібо~Є.П.} Безпека життєдіяльності: Навчальний посібник для студентів вищих навчальних закладів освіти України І-ІV рівнів акредитації~/ Є.П.~Желібо, Н.М.~Заверуха, В.В.~Зацарний. \BibDash
+\newblock Київ~: Каравелла, 2001. \BibDash
+\newblock P.~320.
+
+\bibitem{gost:org_work_room}
+\selectlanguageifdefined{ukrainian}
+ДСТУ ГОСТ 12.2.032-78. Система стандартів
+  безпеки праці. Робоче місце при виконанні
+  робіт сидячи. Загальні ергономічні
+  вимоги. \BibDash
+\newblock Київ. \BibDash
+\newblock 1978.
+
+\bibitem{dns_noise}
+\selectlanguageifdefined{ukrainian}
+ДСН 3.3.6.037-99. Санітарні норми виробничого
+  шуму, ультразвуку та інфразвуку.
+  \BibDash
+\newblock 1999.
+
+\bibitem{dsanpin98}
+\selectlanguageifdefined{ukrainian}
+Гігієнічні вимоги до відео-дисплейних
+  терміналів, ПЕОМ і організації роботи:
+  ДСанПіН~3.3.2-007-98. \BibDash
+\newblock Міністерство охорони здоров’я (МОЗ).
+  \BibDash
+\newblock 1998.
+
+\bibitem{dsn:comp_machine}
+\selectlanguageifdefined{ukrainian}
+НПАОП 0.00-1.28-10. Правил охорони праці під час
+  експлуатації електронно-обчислювальних
+  машин. \BibDash
+\newblock Державний комітет України з
+  промислової безпеки, охорони праці та
+  гірничого нагляду. \BibDash
+\newblock 2010.
+
+\bibitem{pue2009}
+\selectlanguageifdefined{ukrainian}
+ПУЕ:2009. Правила улаштування
+  електроустановок. \BibDash
+\newblock Форт. \BibDash
+\newblock 2009.
+
+\bibitem{dstu:fire_safe2009}
+\selectlanguageifdefined{ukrainian}
+ДСТУ 7097:2009. Безпека у надзвичайних
+  ситуаціях. Джерела техногенних
+  надзвичайних ситуацій. Класифікація й
+  номенклатура параметрів уражальних
+  чинників. \BibDash
+\newblock Всеукраїнський науково-дослідний
+  інститут цивільного захисту населення і
+  територій від надзвичайних ситуацій
+  техногенного та природного характеру
+  (ВНДІ ЦЗ). \BibDash
+\newblock 2009.
+
+\end{thebibliography}

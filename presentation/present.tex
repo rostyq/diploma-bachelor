@@ -1,0 +1,262 @@
+\documentclass[12pt,aspectratio=43,hyperref={unicode}]{beamer}
+
+\input{prstructure}
+
+%\title{Дипломна робота на тему:}
+\title{Створення функціональних покриттів на сталі~45 пошаровим електроіскровим легуванням хромом, вольфрамом та графітом}
+\author{Богомаз Р.Д.}
+\supervisor{к.т.н. Лобачова Г.Г.}
+\date{}
+%\institute{Інженерно-Фізичний факультет\\Кафедра Фізики Металів}
+%\logo{\includegraphics[height=10mm]{logo.jpg}\vspace{900pt}}
+    \titlegraphic{\includegraphics[width=2cm,height=2cm]{logo.jpg}}
+
+\begin{document}
+
+% титульный слайд
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\section{Актуальність}
+\begin{frame}
+
+\centering
+\includegraphics[width=\textwidth, trim={1.5cm 0cm 1.5cm 1.5cm},clip]{graph.pdf}
+% ТРАДИЦІЙНО (ЧЕРВОНИМ) : компактовані аноди
+
+% TODO ЗРОБИТИ МАЛЮнОК АКТУАЛЬНОСТІ
+
+%Для зміцнення та нанесення захисних поверхонь вигідно використовувати електрофізичні методи обробки матеріалів, сутність яких полягає на використанні концентрованих потоків енергії. Одним із таких методів є електроіскрове легування (ЕІЛ) металевих поверхонь. Його основними перевагами є економічність, екологічність та простота відтворення. Також цей метод дає широкий спектр можливих варіантів проведення експерименту в залежності від обраних матеріалів та відповідно отриманих властивостей поверхні.
+
+\end{frame}
+
+
+\section{Мета роботи} % TODO ПЕРЕРОБИТИ
+\begin{frame}
+
+\begin{block}{\textbf{Дослідження}}
+\vspace{-0.3cm}
+\begin{itemize}
+  \item структури,
+  \item фазового складу
+  \item та властивостей покриттів
+\end{itemize}
+одержаних пошаровим нанесенням
+\begin{itemize}
+  \item вольфраму,
+  \item хрому
+  \item та графіту
+\end{itemize}
+на поверхню сталі~45 в процесі електроіскрового легування.
+\end{block}
+
+
+\end{frame}
+
+\section{Методика дослідження}
+\begin{frame}
+  \begin{itemize}
+  \item \textbf{\large Мікроструктурний аналіз}\\
+  ~
+  \item \textbf{\large Гравіметричний аналіз}\\%<3->
+  ~
+  \item \textbf{\large Рентгеноструктурний аналіз}\\
+    ~
+    \item \textbf{\large Мікродюрометричний аналіз}\\
+~
+  \item \textbf{\large Випробування на зносостійкість}
+  \end{itemize}
+\end{frame}
+
+\section{Методика експерименту}
+\begin{frame}
+
+  \begin{block}{\textbf{Режим роботи}}
+    \begin{itemize}
+    \item \textbf{Сила струму:} 2~А;
+    \item \textbf{Напруга:} 60~В;
+    \item \textbf{Час легування:} 9~хв (3 хв на етап);
+    \item \textbf{Середовище:} повітря.
+    \end{itemize}
+\end{block}
+
+  \begin{block}{\textbf{Запропоновані схеми легування}}
+  \begin{multicols}{2}
+  \begin{itemize}
+  \item \textbf{Cr-W-C}
+  \item \textbf{W-C-Cr}
+  \item \textbf{W-Cr-C}
+  \item \textbf{C-Cr-W}
+  \end{itemize}
+  \end{multicols}
+
+\end{block}
+\end{frame}
+
+\section{Мікроструктурний аналіз}
+
+\begin{frame}
+
+\hspace{0.3cm}\includegraphics[width=0.9\textwidth]{figures/adapt_microstr}
+\end{frame}
+
+\section{Гравіметричний аналіз}
+
+\begin{frame}
+\begin{figure} % TODO ПЕРЕРОБИТИ ГРАФІКИ -> ЗРОБИТИ СПІЛЬНІ ОСІ І ВСТАВИТИ ОДНИМ МАЛЮНКОМ
+  %\caption{Мікротвердість та мікроструктура (W-Cr-C)}
+  \begin{minipage}[c]{0.49\textwidth}
+    \includegraphics[width=\linewidth]{plt_pr_gravi_C-Cr-W.pdf}\\
+    \includegraphics[width=\linewidth]{plt_pr_gravi_Cr-W-C.pdf}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[c]{0.49\textwidth}
+    \includegraphics[width=\linewidth]{plt_pr_gravi_W-C-Cr.pdf}\\
+    \includegraphics[width=\linewidth]{plt_pr_gravi_W-Cr-C.pdf}
+  \end{minipage}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\vspace{-0.2cm}
+\begin{exampleblock}{Ефективність процесу утворення зміненої поверхні}\vspace{-0.5cm}
+\begin{equation}
+\Upsilon_{t_x} = \bar{K}_{t_x} \cdot t_x \cdot \sum_{t=0}^{t_x} \Delta m_t^k
+\label{eq:effectiveness_coef_x}
+\end{equation}
+\begin{equation}
+\Upsilon_{t_{cr}} = \bar{K}_{t_{cr}} \cdot t_{cr} \cdot \sum_{t=0}^{t_{cr}} \Delta m_t^k
+\label{eq:effectiveness_coef_cr}
+\end{equation}
+\end{exampleblock}
+
+% TODO СУМІСТИТИ СЛАЙДИ
+\vspace{-0.2cm}
+\begin{figure}[H]
+\centering
+%\caption{Коефіцієнти ефективності утворення легованого шару}
+\label{fig:comp_grav}
+\includegraphics[width=0.9\textwidth]{pr_comp_grav.pdf}
+\end{figure}
+\end{frame}
+
+\section{Рентгеноструктурний аналіз}
+
+\begin{frame}
+\begin{figure}[H]
+\centering
+\caption{Дифрактограма зразка Cr-W-C}
+\includegraphics{pr_rigaku_peaks_Cr-W-C}
+\end{figure}
+\begin{alertblock}{Фазовий склад}
+\centering
+  $\epsilon\text{-}$F\textsubscript{3}C, Cr\textsubscript{3}C\textsubscript{2}, C(графіт)
+\end{alertblock}
+\end{frame}
+
+\begin{frame}
+\begin{figure}[H]
+\centering
+\caption{Дифрактограма зразка W-Cr-C}
+\includegraphics{pr_rigaku_peaks_W-Cr-C}
+\end{figure}
+\begin{alertblock}{Фазовий склад}
+\centering
+  WC, W\textsubscript{2}C, Fe\textsubscript{3}C
+\end{alertblock}
+\end{frame}
+
+\begin{frame}
+\begin{figure}[H]
+\centering
+\caption{Дифрактограма зразка W-C-Cr}
+\includegraphics{pr_rigaku_peaks_W-C-Cr}
+\end{figure}
+\begin{alertblock}{Фазовий склад}
+\centering
+Cr, W\textsubscript{2}C, WC, СrC
+\end{alertblock}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}[H]
+  \centering
+  \caption{Дифрактограма зразка C-Cr-W}
+  \includegraphics{pr_rigaku_peaks_C-Cr-W}
+  \end{figure}
+  \begin{alertblock}{Фазовий склад}
+  \centering
+Fe\textsubscript{3}C, CrC, W\textsubscript{2}C
+  \end{alertblock}
+\end{frame}
+
+
+\section{Мікродюрометричний аналіз}
+
+\begin{frame}
+\begin{figure} % TODO АНАЛОГІЧНО ГРАВІМЕТРИЧНОМУ
+  %\caption{Мікротвердість та мікроструктура (W-Cr-C)}
+  \begin{minipage}[c]{0.49\textwidth}
+    \includegraphics[width=\linewidth]{plt_pr_hard_C-Cr-W.pdf}\\[2mm]
+    \includegraphics[width=\linewidth]{plt_pr_hard_Cr-W-C.pdf}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[c]{0.49\textwidth}
+    ~
+    \includegraphics[width=\linewidth]{plt_pr_hard_W-C-Cr.pdf}\\[2mm]
+    \includegraphics[width=\linewidth]{plt_pr_hard_W-Cr-C.pdf}
+  \end{minipage}
+\end{figure}
+\end{frame}
+
+
+\section{Випробування на зносостійкість}
+\begin{frame}
+\begin{figure}
+  %\caption{Мікротвердість та мікроструктура (W-Cr-C)}
+  \begin{minipage}[c]{0.49\textwidth}
+    \includegraphics[width=\linewidth]{plt_pr_wear_C-Cr-W.pdf}\\[2mm]
+    \includegraphics[width=\linewidth]{plt_pr_wear_Cr-W-C.pdf}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[c]{0.49\textwidth}
+    \includegraphics[width=\linewidth]{plt_pr_wear_W-C-Cr.pdf}\\[2mm]
+    \includegraphics[width=\linewidth]{plt_pr_wear_W-Cr-C.pdf}
+  \end{minipage}
+\end{figure}
+\end{frame}
+
+\section{Порівняння отриманих властивостей}
+\begin{frame}
+\begin{figure}[H]
+\centering
+\caption{Порівняння максимальної мікротвердості та зносостійкості}
+\label{fig:comp_wh}
+\includegraphics[width=0.9\textwidth]{pr_comp_wh.pdf}
+\end{figure}
+\end{frame}
+
+
+\section{ВИСНОВКИ}
+
+\begin{frame}
+\small
+\vspace{-0.2cm}
+\begin{exampleblock}{Встановлено можливість створення}
+ функціональних покриттів товщиною 15-30~мкм на поверхні сталі~45 в процесі пошарового ЕІЛ W-, Cr-, C-анодами.
+\end{exampleblock}
+
+\begin{alertblock}{Встановлено підвищення поверхневої мікротвердості}
+ сталі~45 від 11,5 ГПа до 18,9~ГПа після нанесення електроіскрових покриттів за всіма запропонованими схемами за рахунок наявності твердих розчинів матеріалів електродів та карбідів WC, W\textsubscript{2}C, Fe\textsubscript{3}C, Cr\textsubscript{3}C\textsubscript{2}, CrC.
+\end{alertblock}
+
+\begin{alertblock}{Виявлено, що зносостійкість покриттів}
+зростає в ряду C-Cr-W~$\rightarrow$~W-C-Cr~$\rightarrow$~W-Cr-C~$\rightarrow$~Cr-W-C у 2,9-23~рази у порівнянні з необробленою поверхнею сталі~45.
+
+Найвищу зносостійкість має покриття Cr-W-C за рахунок наявності вільного графіту.
+
+\end{alertblock}
+\end{frame}
+
+\end{document}

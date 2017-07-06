@@ -1,0 +1,8 @@
+	2-theta(deg)	d(ang.)	Phase name
+1	40	2.2456	Cohenite, syn(0,0,2),Tungsten Carbide(1,1,-1)
+2	44	2.0768	Cohenite, syn(2,1,1),Chromium Carbide(2,0,0),Tungsten Carbide(1,0,2)
+3	50	1.8232	Cohenite, syn(2,2,1)
+4	64	1.4638	Cohenite, syn(0,1,3),Chromium Carbide(2,2,0),Tungsten Carbide(3,0,0)
+5	73	1.2897	Cohenite, syn(0,5,1),Tungsten Carbide(2,2,0)
+6	80	1.1977	Cohenite, syn(4,0,1),Chromium Carbide(2,2,2),Tungsten Carbide(0,0,4)
+7	97	1.0283	Cohenite, syn(2,6,0),Chromium Carbide(4,0,0)

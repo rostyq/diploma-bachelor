@@ -1,0 +1,144 @@
+% \documentclass[aspectratio=43]{beamer}
+% \documentclass[aspectratio=1610]{beamer}
+% \documentclass[aspectratio=169]{beamer}
+
+%\usepackage{lmodern}
+
+% подключаем кириллицу
+% \usepackage[T2A]{fontenc}
+% \usepackage[utf8]{inputenc}
+% \usepackage[ukrainian]{babel}
+
+\usepackage{scrextend}
+\usepackage[no-math]{fontspec} % костыль
+\usepackage{mathspec}
+\usepackage{xunicode,xltxtra} % не мешает вроде
+\usepackage{mathptmx}
+\usepackage{multicol}
+
+% ПОЛИГЛОССИЯ
+\usepackage{polyglossia} % на замену babel
+\setmainlanguage{ukrainian}
+\defaultfontfeatures{Mapping=tex-text} % чтобы работали "---" и прочее
+\setotherlanguages{english, russian}
+\newfontfamily\cyrillicfont[Script=Cyrillic]{Arial}
+\newfontfamily\cyrillicfonttt[Script=Cyrillic]{Arial}
+
+% СТАВИМ ШРИФТЫ
+\setsansfont{Arial}
+\setmainfont[Scale=1]{Arial} % .976
+\setmathfont(Digits,Latin,Greek)[Scale=1, Numbers={Lining,Proportional}]{Arial}
+\setmonofont{Arial}
+%\linespread{1.5} % 1.464
+
+%выключаем переносы и делаем выравнивание текста Word-like
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%\usepackage{ragged2e}
+%\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm}
+% делаем чтобы запятые в формулах были тоже таймс нью роман
+%\usepackage[output-decimal-marker=\textrm{,}]{siunitx}
+%\renewcommand\materialfont{\sffamily\fontsize{7pt}{\baselineskip}\selectfont}
+
+%\setbeamertemplate{caption}{\insertcaption}
+%\setbeamertemplate{caption label}{}
+%\setbeamertemplate{caption label separator}{}
+% тема оформления
+\usetheme{Luebeck}
+%\usefonttheme{cmss} % using non standard fonts for beamer
+
+
+\graphicspath{{./figures/}}
+
+% отключить клавиши навигации
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+\setbeamerfont{footline}{size=\fontsize{12}{12}\selectfont}
+%\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\setbeamertemplate{headline}{}
+
+\makeatletter
+\def\beamer@framenotesbegin{% at beginning of slide
+  \ifnum \value{framenumber}>1
+  \frametitle{\small\bf\insertsectionhead}
+  \framesubtitle{\small\bf\insertsubsectionhead}
+  \else
+  \fi
+}
+\makeatother
+
+
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip
+    \begin{beamercolorbox}[sep=0.5ex,wd=\paperwidth,leftskip=1cm,rightskip=0cm]{frametitle}%
+      \usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}\insertframetitle\\
+      \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle
+    \end{beamercolorbox}%
+}
+
+
+% цветовая схема
+% \usecolortheme{seagull}
+
+%\hyphenpenalty=100000 %%% to turn the hyphenation off
+
+\PassOptionsToPackage{demo}{graphicx}
+
+\makeatletter
+\let\insertsupervisor\relax
+\newcommand\supervisortitle{Керівник}
+\mode<all>
+{
+  \newcommand\supervisor[1]{\def\insertsupervisor{#1}}
+  \titlegraphic{}
+}
+\defbeamertemplate*{title page}{supdefault}[1][]
+{
+  \vbox{}
+  %\vfill
+  \begingroup
+    \centering
+    \begin{beamercolorbox}[sep=4pt,center,#1]{institute}
+      \usebeamerfont{institute}\insertinstitute
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center,#1]{title}
+      \usebeamerfont{title}\inserttitle\par%
+      \ifx\insertsubtitle\@empty\relax%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%
+    \end{beamercolorbox}%
+    %\vskip1em\par
+    \begin{beamercolorbox}[sep=4pt,center,#1]{author}
+      \usebeamerfont{author}
+      \begin{flushright}
+      \begin{tabular}{rl}
+        \textbf{Виконав:}&студент групи ФМ-31\\
+        &\insertauthor\\
+        \textbf{\supervisortitle:}&\insertsupervisor
+      \end{tabular}
+      \end{flushright}
+    \end{beamercolorbox}
+
+    \begin{beamercolorbox}[sep=4pt,center,#1]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}%\vskip0.5em
+    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+  \endgroup
+  \vfill
+}
+%\setbeamertemplate{title page}[supdefault][colsep=-4bp,rounded=true,shadow=\beamer@themerounded@shadow]\makeatother
+
+\expandafter\def\expandafter\normalsize\expandafter{%
+    \normalsize
+    \setlength\abovedisplayskip{0pt}
+    \setlength\belowdisplayskip{0pt}
+    \setlength\abovedisplayshortskip{0pt}
+    \setlength\belowdisplayshortskip{0pt}
+}

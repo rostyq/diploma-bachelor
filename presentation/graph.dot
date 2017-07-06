@@ -1,0 +1,19 @@
+digraph G{
+node[color="black", fillcolor="red",fontcolor="black",fontsize=14, style=filled];
+edge[color="black",fontcolor="blue",fontsize=12];
+
+CA[label="Компактовані\n аноди", fillcolor="mintcream"]
+LA[label="Пошарове\n нанесення\n чистих металів", fillcolor="mintcream"]
+S[label="БАГАТОКОМПОНЕНТНІ ПОКРИТТЯ",fontsize=18, shape="rectangle",style="rounded,filled", fillcolor="midnightblue", fontcolor="white"]
+
+subgraph cluster_0 {shape="rectangle";style="filled,rounded"; fillcolor="lightgrey";
+    label="ТРАДИЦІЙНЕ\n НАНЕСЕННЯ"; 
+	CA
+}
+subgraph cluster_1 {shape="rectangle"; style="rounded";style="filled,rounded"; fillcolor="palegreen";
+    label="АЛЬТЕРНАТИВНЕ\n НАНЕСЕННЯ"; 
+	LA
+} 
+CA ->  S[style="bold"]
+LA -> S[style="bold"]
+}
