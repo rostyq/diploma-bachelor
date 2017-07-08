@@ -3,6 +3,8 @@
 % ДСТУ3008:2015
 %
 
+%TODO: comment all thing for better understanding
+
 \nonstopmode
 %\usepackage{extsizes}
 
@@ -55,7 +57,7 @@
 
 \usepackage{array}
 \usepackage{graphicx} % для вставки картинок
-\let\varTheta\undefined %КОСТЫЛЬ!!!
+\let\varTheta\undefined %КОСТЫЛЬ
 \usepackage{amsfonts,amsmath,amsthm} % математические дополнения от АМС
 \usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
 \usepackage[usenames,dvipsnames]{color} % названия цветов
@@ -89,6 +91,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % ПОДПИСИ К РИСУНКАМ
 %%%%%%%%%%%%%%%%%%%%%%%%%%
+%TODO: fix the issue with breaking paragraph by picture when it is float object
 
 \usepackage[tableposition=top]{caption}
 \usepackage{subcaption}
@@ -340,6 +343,7 @@ final=true,
 \setlength{\bibsep}{0pt}
 \bibliographystyle{ugost2003}
 
+%TODO: move or delete this
 \makeatletter
 \newcommand\thefontsize[1]{{#1 The current font size is: \f@size pt\par}}
 \makeatother
